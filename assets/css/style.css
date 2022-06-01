@@ -660,7 +660,44 @@ body {
 .copyright-link:is(:hover, :focus) { background-color: hsla(0, 0%, 100%, 0.05); }
 
 
+/* CONTACT FORM */
 
+.contact-input{
+  background-color: var(--eerie-black-2);
+  color: var(--gainsboro);
+  font-size: var(--fs-5);
+  padding: 12px 20px;
+  padding-inline-end: 80px;
+  border-radius: var(--radius-4);
+  outline: none;
+  transition: var(--transition-1);
+  margin-inline-end: 20px;
+  /* margin-inline-start: 20px; */
+  margin-bottom: 10px;
+}
+
+.message{
+  background-color: var(--eerie-black-2);
+  color: var(--gainsboro);
+  font-size: var(--fs-5);
+  padding: 12px 20px;
+  padding-inline-end: 80px;
+  border-radius: var(--radius-4);
+  outline: none;
+  transition: var(--transition-1);
+  width: 100%;
+}
+
+.form-label{
+  font-size: var(--fs-4);
+  color: var(--white);
+}
+
+.valider{
+  margin-block-start: 30px;
+  margin: 30px auto;
+  padding: 15px 20px;
+}
 
 
 /*-----------------------------------*\
